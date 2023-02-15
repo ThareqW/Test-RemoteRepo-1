@@ -9,7 +9,7 @@ class itemProperty():
     item_type: str
     item_category: str
     price: float
-    expired_date: int
+    expired_date: date
 
     def __init__(self, brand: str, item_type: str, item_category: str, price: float, expired_date: str) -> None:
 
